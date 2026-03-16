@@ -8,6 +8,18 @@
 
 ---
 
+## 🚀 Need More Power?
+
+| Edition | Price | What You Get |
+|---------|-------|-------------|
+| **Free** (this repo) | $0 | 29 scripts, 5 presets, audit & monitoring |
+| **[Pro](https://github.com/rajdeep09-dev/Open-Optimise-Pro)** | $1,000 | + AI Auto-Router, Budget Enforcer, Anomaly Detector, ROI Calculator, REST API, Live Dashboard, Team Billing |
+| **[Ultra](https://github.com/rajdeep09-dev/Open-Optimise-Ultra)** | ~~$10,000~~ **$2,500** | + ML Cost Predictor, A/B Model Tester, Fleet Controller (100+ instances), Policy Engine, Smart Compactor, 5-instance license, 12-month priority support |
+
+> *Pro pays for itself in 20 days. Ultra in 8 days.*
+
+---
+
 ## ⚡ What Is This?
 
 A complete cost optimization skill for [OpenClaw](https://github.com/openclaw/openclaw) — the open-source AI agent platform. It includes:
@@ -347,6 +359,35 @@ When the skill is active, your agent responds to:
 ### Adding a Preset
 
 Create a `.preset.json` in `presets/` following the existing format. Include a description of who the preset is for.
+
+---
+
+## 🚀 Upgrade to Pro or Ultra
+
+Love the free version? The paid editions add **autonomous** cost optimization:
+
+### [Open-Optimise Pro](https://github.com/rajdeep09-dev/Open-Optimise-Pro) — $1,000
+
+- 🧠 **AI Auto-Router** — Classifies requests, routes to cheapest adequate model
+- 💰 **Budget Enforcer** — Hard daily/weekly/monthly limits with auto-downgrade
+- 🔍 **Anomaly Detector** — Z-score spike detection, loop detection
+- 📈 **ROI Calculator** — Prove the tool paid for itself (20-day payback)
+- 🎯 **Session Optimizer** — Per-session cost caps and reset recommendations
+- 👥 **Team Manager** — Per-user budgets, project billing, invoice generation
+- 🌐 **REST API** — 12 endpoints, Grafana/Datadog-ready
+- 📊 **Live Dashboard** — Dark-theme, real-time, self-hosted
+- 📧 **Scheduled Reports** — Discord/Slack/HTML/Markdown
+
+### [Open-Optimise Ultra](https://github.com/rajdeep09-dev/Open-Optimise-Ultra) — ~~$10,000~~ $2,500
+
+Everything in Pro, PLUS:
+
+- 🔮 **ML Cost Predictor** — Linear regression + confidence intervals + budget runway
+- 🧹 **Smart Compactor** — Session lifecycle optimization + cache efficiency analysis
+- 🧪 **A/B Model Tester** — Same prompt → multiple models → quality-per-dollar ranking
+- 🚀 **Fleet Controller** — Manage 2-100+ instances from one place
+- 📋 **Policy Engine** — 10 governance rules + audit trail + emergency kill switch
+- 📄 **5-instance license** + 12-month priority support
 
 ---
 
