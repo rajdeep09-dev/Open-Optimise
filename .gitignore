@@ -1,0 +1,4 @@
+*.tar.gz
+*.zip
+/tmp/
+node_modules/
