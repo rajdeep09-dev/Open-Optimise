@@ -8,15 +8,21 @@
 
 ---
 
-## 🚀 Need More Power?
+## 🚀 Want Even More? Get Pro or Ultra
 
 | Edition | Price | What You Get |
 |---------|-------|-------------|
-| **Free** (this repo) | $0 | 29 scripts, 5 presets, audit & monitoring |
-| **[Pro](https://github.com/rajdeep09-dev/Open-Optimise-Pro)** | $1,000 | + AI Auto-Router, Budget Enforcer, Anomaly Detector, ROI Calculator, REST API, Live Dashboard, Team Billing |
-| **[Ultra](https://github.com/rajdeep09-dev/Open-Optimise-Ultra)** | ~~$10,000~~ **$2,500** | + ML Cost Predictor, A/B Model Tester, Fleet Controller (100+ instances), Policy Engine, Smart Compactor, 5-instance license, 12-month priority support |
+| **Free** (this repo) | $0 | 29 scripts, 5 presets, full audit & monitoring |
+| **Pro** | $1,000 | + AI Auto-Router, Budget Enforcer, Anomaly Detector, ROI Calculator, REST API, Live Dashboard, Team Billing, Scheduled Reports |
+| **Ultra** | ~~$10,000~~ **$2,500** | + ML Cost Predictor, A/B Model Tester, Fleet Controller (100+ instances), Policy Engine, Smart Compactor, 5-instance license, 12-month priority support |
 
 > *Pro pays for itself in 20 days. Ultra in 8 days.*
+
+### 🛒 How to Buy
+
+**DM me on Instagram:** [@rajdeep.0.21](https://instagram.com/rajdeep.0.21)
+
+I'll walk you through the setup and give you access to the private repo.
 
 ---
 
@@ -56,12 +62,6 @@ git clone https://github.com/rajdeep09-dev/Open-Optimise.git cost-optimizer
 chmod +x cost-optimizer/scripts/*.sh
 ```
 
-### Manual Install
-
-1. Download the [latest release](https://github.com/rajdeep09-dev/Open-Optimise/releases)
-2. Extract to `~/.openclaw/workspace/skills/cost-optimizer/`
-3. Run `chmod +x cost-optimizer/scripts/*.sh`
-
 ### Verify Installation
 
 ```bash
@@ -96,7 +96,6 @@ The skill walks through 6 setup steps, asking permission before each change:
 | **Shell** | bash (Linux/macOS/WSL) |
 | **curl** | For health checks and webhooks |
 | **Optional:** OpenRouter API key | For free models ($0.00/request) — [get one here](https://openrouter.ai/keys) |
-| **Optional:** Webhook URL | For automated reports to Discord/Slack |
 
 ---
 
@@ -119,34 +118,10 @@ cost-optimizer/
 │   ├── zero-budget.preset.json
 │   └── agency-team.preset.json
 └── scripts/              # 29 executable scripts
-    ├── backup-config.sh
-    ├── restore-config.sh
-    ├── fallback-validator.sh
     ├── cost-audit.sh
-    ├── heartbeat-cost.sh
-    ├── cost-history.sh
-    ├── session-replay.sh
-    ├── provider-compare.sh
-    ├── tool-audit.sh
-    ├── token-counter.sh
-    ├── context-monitor.sh
-    ├── prompt-tracker.sh
-    ├── compaction-log.sh
-    ├── dedup-detector.sh
-    ├── apply-preset.sh
-    ├── token-enforcer.sh
-    ├── config-diff.sh
-    ├── idle-sleep.sh
-    ├── setup-openrouter.sh
-    ├── cost-monitor.sh
-    ├── cost-dashboard.js
-    ├── webhook-report.sh
-    ├── cron-setup.sh
-    ├── model-switcher.sh
     ├── provider-health.sh
-    ├── model-test.sh
-    ├── preset-manager.sh
-    ├── multi-instance.sh
+    ├── fallback-validator.sh
+    ├── ... (26 more)
     └── parse-config.js
 ```
 
@@ -289,18 +264,6 @@ Model Aliases:     13 configured
   Summary: 13 UP, 0 SLOW, 0 DOWN
 ```
 
-### fallback-validator.sh
-
-```
-  Testing 3 model(s) in fallback order...
-
-  PRIMARY     anthropic/claude-opus-4-6      ✅ UP (2362ms)
-  FALLBACK 1  anthropic/claude-sonnet-4-6    ✅ UP (3045ms)
-  FALLBACK 2  anthropic/claude-haiku-4-5     ✅ UP (533ms)
-
-  ✅ All 3 models in the chain are reachable.
-```
-
 > See `GUIDE.md` for example outputs from every script.
 
 ---
@@ -356,17 +319,13 @@ When the skill is active, your agent responds to:
 5. Push to the branch (`git push origin feature/my-optimization`)
 6. Create a Pull Request
 
-### Adding a Preset
-
-Create a `.preset.json` in `presets/` following the existing format. Include a description of who the preset is for.
-
 ---
 
-## 🚀 Upgrade to Pro or Ultra
+## 💎 Upgrade to Pro or Ultra
 
 Love the free version? The paid editions add **autonomous** cost optimization:
 
-### [Open-Optimise Pro](https://github.com/rajdeep09-dev/Open-Optimise-Pro) — $1,000
+### Open-Optimise Pro — $1,000
 
 - 🧠 **AI Auto-Router** — Classifies requests, routes to cheapest adequate model
 - 💰 **Budget Enforcer** — Hard daily/weekly/monthly limits with auto-downgrade
@@ -378,7 +337,7 @@ Love the free version? The paid editions add **autonomous** cost optimization:
 - 📊 **Live Dashboard** — Dark-theme, real-time, self-hosted
 - 📧 **Scheduled Reports** — Discord/Slack/HTML/Markdown
 
-### [Open-Optimise Ultra](https://github.com/rajdeep09-dev/Open-Optimise-Ultra) — ~~$10,000~~ $2,500
+### Open-Optimise Ultra — ~~$10,000~~ $2,500
 
 Everything in Pro, PLUS:
 
@@ -388,6 +347,22 @@ Everything in Pro, PLUS:
 - 🚀 **Fleet Controller** — Manage 2-100+ instances from one place
 - 📋 **Policy Engine** — 10 governance rules + audit trail + emergency kill switch
 - 📄 **5-instance license** + 12-month priority support
+
+### 🛒 How to Buy
+
+**DM on Instagram:** [@rajdeep.0.21](https://instagram.com/rajdeep.0.21)
+
+I'll set you up with access to the private repo and walk you through installation.
+
+---
+
+## ☕ Support This Project
+
+If this tool saved you money, consider supporting development:
+
+**UPI:** `debnathnikita34@okhdfcbank`
+
+Every contribution helps keep the free version updated and the scripts working. 🙏
 
 ---
 
